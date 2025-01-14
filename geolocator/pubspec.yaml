@@ -28,7 +28,11 @@ dependencies:
 
   geolocator_platform_interface: ^4.2.3
   geolocator_android: ^4.6.0
-  geolocator_apple: ^2.3.8
+  geolocator_apple:
+    git:
+      url: https://github.com/hkm5558/flutter-geolocator.git
+      path: geolocator_apple
+      ref: f5fe5aaa54b1595d50519c40f3d729ae9018fff5
   geolocator_web: ^4.1.1
   geolocator_windows: ^0.2.3
 
