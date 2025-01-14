@@ -32,7 +32,7 @@ dependencies:
     git:
       url: https://github.com/hkm5558/flutter-geolocator.git
       path: geolocator_apple
-      ref: f5fe5aaa54b1595d50519c40f3d729ae9018fff5
+      ref: e8205360fadf728ba905c12cf99dedb005c246fd
   geolocator_web: ^4.1.1
   geolocator_windows: ^0.2.3
 
