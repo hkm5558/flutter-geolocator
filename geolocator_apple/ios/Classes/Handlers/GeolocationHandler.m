@@ -142,11 +142,6 @@ double const kMaxLocationLifeTimeInSeconds = 5.0;
 }
 
 - (void)stopOneTimeLocationListening {
-#if TARGET_OS_IOS
-    [self getLocationManager].allowsBackgroundLocationUpdates = NO;
-    [self getLocationManager].showsBackgroundLocationIndicator = NO;
-    [self getLocationManager].pausesLocationUpdatesAutomatically = YES;
-#endif
   [[self getOneTimeLocationManager] stopUpdatingLocation];
   self.oneTimeErrorHandler = nil;
   self.currentLocationResultHandler = nil;
